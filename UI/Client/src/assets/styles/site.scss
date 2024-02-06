@@ -1,0 +1,45 @@
+// Import all of Bootstrap's CSS
+@import "@bootstrap/scss/bootstrap";
+
+:root {
+    --nav-height: 50px;
+    --bs-primary: #337ab7;
+    --bs-primary-rgb: 51, 122, 183;
+    --bs-blue: #2196f3;
+}
+
+main {
+    margin-top: 55px;
+    padding: 0px !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+body {
+    font-family: var(--bs-font-sans-serif);
+}
+
+.dx-overlay-shader {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.dxc-tooltip {
+    z-index: 86;
+}
+
+.styled-link {
+    cursor: pointer;
+    color: var(--bs-primary);
+    text-decoration: none;
+}
+
+.styled-link:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
