@@ -1,4 +1,5 @@
 "# ViteErrorProject" 
+
 Steps required for running project 
 
 npm install
